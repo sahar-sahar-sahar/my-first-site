@@ -1,0 +1,236 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.menu{
+    text-align: center;
+}
+.s{
+    color: rgb(0, 0, 0);
+    text-decoration: none;/* отмена подчёркивания */
+    display: inline-block;
+    padding: 20px 40px;
+}
+.s:hover{
+    background: rgb(43, 142, 255);
+    border-radius: 5px;/* скругляет углы элементов */
+}
+.header{
+    width: 800px;
+    height: 400px;
+    background: url(img/polygons.png);
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box; /* рапещает паддингам расширать элементы */
+}
+.button{
+    background: rgb(255, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+}
+.button:hover{
+    background: rgb(255, 255, 255);
+    padding: 20px 30px;
+}
+.company{
+    width: 800px;
+    margin: 0 auto; 
+}
+h2{
+    text-align: center;
+}
+.cartinka{
+    float: right;/* обтекание картинки текстом */
+    width: 473px;
+    height: 256px ;
+}
+.team__description{
+    text-align: center;
+}
+.team{
+    margin: 0px auto;
+    width: 1250px;
+}
+.team__card{
+  width: 20%;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #000;/* границы элементов */
+  margin-right: 15px;
+}
+.team__card:hover{
+    box-shadow: 0 10px 110px rgb(7, 71, 200);
+}
+.photo{
+width: 100%;
+}
+.team__card__position{
+    opacity:0.7 ;/* прозрачность */
+}
+.team__card__button{
+    background: #1397bb ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 7px 0px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.price{
+    background-color: rgb(109, 109, 109);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.price__card{
+    width: 30%;
+    list-style-type: none; /* убирает точки у списка */
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px; 
+}
+.red:hover{
+    box-shadow: 0 10px 110px rgb(255, 0, 0);
+}
+.turquoise:hover{
+    box-shadow: 0 10px 110px rgb(0, 255, 247);
+}
+.purple:hover{
+    box-shadow: 0 10px 110px rgb(230, 0, 255);
+}
+.price__card__h{
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    padding: 32px 0px;
+    font-size: 24px; /* увиличивает текст */
+}
+.price__card__d{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 16px 0px;
+    border-bottom: 1px solid #dddddd;
+}
+span{
+font-weight: 600;
+}
+.price__card__price{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.price__card__text{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 15px;
+}
+.card__down{
+    background: rgb(207, 207, 207);
+    border-bottom: 1px solid #dddddd;
+    padding: 5px 0px;
+}
+.knopka__knopka{
+    background: rgb(5, 4, 4);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    display: inline-block;
+}
+.price__card__pro{
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 83, 112);
+    padding: 40px 0px;
+    font-size: 24px;
+}
+.contacty__normali{
+    padding: 20px 30px;
+    background-color: rgb(236, 236, 236);
+}
+.prosto__napisi{
+    text-align: center;
+}
+.contact-info{
+    background: url(img/address.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 18px 18px;
+}
+.contact-tel{
+    background: url(img/phone.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 18px 18px;
+}
+.contact-mail{
+    background: url(img/mail.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 18px 18px;
+}
+.odinakovo{
+    width: 100%;
+    padding: 5px 30px;
+    border: none;
+    margin-bottom: 10px;
+}
+.knopka__knopka{
+    background: rgb(5, 4, 4);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    display: inline-block;
+}
+.prava__zasisiny{
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+.tyt__p{
+    margin: 0;
+}
+form{
+    text-align: center;
+}
+@media (max-width:575px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header{
+        margin: 0;
+        width: 100%;
+    }
+    .company{
+        width: 100%;
+    }
+    .team{
+        width: 100%;
+        margin: 0;
+    }
+    .team__card{
+        width: 100%;
+    }
+    .price__card{
+        width: 100%;
+    }
+    .button{
+        background: rgb(0, 193, 32);
+        
+    }
+}
